@@ -1,0 +1,255 @@
+<html>
+<title>www.itskillsacademy.infy.uk</title>
+
+<head>
+    <style>
+        .skills {
+            border-bottom-color: #444;
+        }
+
+        .skills10 {
+            border-left-color: #444;
+        }
+    </style>
+    <script>
+        var a, b, c, d, e, f, g, h, i, j, k, l, m, n, hin, eng, math, sst, sei, total, per, div;
+
+
+
+        a = prompt("Enter Your Roll No. :", "");
+        b = prompt("Enter Your Name :", "");
+
+        hin = prompt("Enter Hindi Marks :", "");
+        eng = prompt("Enter English Marks :", "");
+        math = prompt("Enter Maths Marks :", "");
+        sst = prompt("Enter SST Marks :", "");
+        sei = prompt("Enter Science Marks :", "");
+
+        hin = hin - 0;
+        eng = eng - 0;
+        math = math - 0;
+        sst = sst - 0;
+        sei = sei - 0;
+
+        total = hin + eng + math + sst + sei;
+        per = total * 100 / 500;
+
+        document.write("<table border='0' width='30%' cellpadding='10px' >");
+        document.write("<tr>");
+        document.write("<td>Roll No.</td>");
+        document.write("<td>" + a + "</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>Student's Name </td>");
+        document.write("<td>" + b + "</td>");
+        document.write("</tr>");
+        document.write("</table><br><br>");
+
+
+        document.write("<table border='0' width='100%' cellpadding='10px' >");
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+
+
+        document.write("<table border='0' width='100%' cellpadding='10px' >");
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+        document.write("<b>Subjects</b>");
+        document.write("</td>");
+        document.write("<td>");
+        document.write("</td>");
+        document.write("<td width='40%'>");
+        document.write("<b>Marks</b>");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+        document.write("Hindi");
+        document.write("</td>");
+        document.write("<td>");
+        document.write("</td>");
+        document.write("<td width='40%'>");
+        document.write(hin + " / 100");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+        document.write("English");
+        document.write("</td>");
+        document.write("<td>");
+        document.write("</td>");
+        document.write("<td width='40%'>");
+        document.write(eng + " / 100");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+        document.write("Maths");
+        document.write("</td>");
+        document.write("<td>");
+        document.write("</td>");
+        document.write("<td width='40%'>");
+        document.write(math + " / 100");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+        document.write("SST");
+        document.write("</td>");
+        document.write("<td>");
+        document.write("</td>");
+        document.write("<td width='40%'>");
+        document.write(sst + " / 100");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td width='40%'>");
+        document.write("Science");
+        document.write("</td>");
+        document.write("<td>");
+        document.write("</td>");
+        document.write("<td width='40%'>");
+        document.write(sei + " / 100");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("</table>");
+
+
+
+        document.write("</td>");
+        document.write("<td>");
+
+
+
+        document.write("<table border='0' height='250px' cellspacing='0px'>");
+        document.write("<tr>");
+        document.write("<td width='100px'>");
+        document.write("Hindi");
+        document.write("</td>");
+        document.write("<td background='vvv.jpg' class='skills10' width='400px'>");
+        document.write("<img src='hin.jpg' height='15px' width=" + 3 * hin + ">");
+        document.write(hin + " %");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write("English");
+        document.write("</td>");
+        document.write("<td background='vvv.jpg' class='skills10'>");
+        document.write("<img src='eng.jpg' height='15px' width=" + 3 * eng + ">");
+        document.write(eng + " %");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write("Maths");
+        document.write("</td>");
+        document.write("<td background='vvv.jpg' class='skills10'>");
+        document.write("<img src='math.jpg' height='15px' width=" + 3 * math + ">");
+        document.write(math + " %");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write("SST");
+        document.write("</td>");
+        document.write("<td background='vvv.jpg' class='skills10'>");
+        document.write("<img src='sst.jpg' height='15px' width=" + 3 * sst + ">");
+        document.write(sst + " %");
+        document.write("</td>");
+        document.write("</tr>");
+
+        document.write("<tr class='skills'>");
+        document.write("<td>");
+        document.write("Science");
+        document.write("</td>");
+        document.write("<td background='vvv.jpg' class='skills10'>");
+        document.write("<img src='sei.jpg' height='15px' width=" + 3 * sei + ">");
+        document.write(sei + " %");
+        document.write("</td>");
+        document.write("</tr>");
+
+
+        document.write("</table>");
+
+        document.write("</td>");
+        document.write("</tr>");
+        document.write("</table>");
+
+
+
+
+
+        document.write("");
+
+
+
+        document.write("<br><center>");
+        document.write("<table border='0' ><tr><td>");
+        document.write("<font color='#666'><b>Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font>");
+        document.write("<font color='#666'><b>Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font>");
+        document.write("<font color='#666'><b>Division&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font>");
+        document.write("<font color='#666'><b>Result&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font>");
+        document.write("<br><br>");
+        document.write("</td></tr>");
+        document.write("<tr><td>");
+        document.write(total + " / 500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+
+        if (hin >= 33 && eng >= 33 && math >= 33 && sei >= 33 && sst >= 33) {
+            document.write(per + " %");
+            if (per >= 60) {
+                document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First");
+            }
+            else if (per >= 45) {
+                document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second");
+            }
+            else if (per >= 33) {
+                document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Third");
+            }
+            document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color='green'>Pass</font>");
+            document.write("<br><br>");
+            document.write("<font color='skyblue'>[ Congratuation dear !</font><font color='#999'>" + b + "</font><font color='skyblue'>You have Passed. ]</font>");
+
+        }
+        else {
+            document.write("&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+            document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+            document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color='red'>Fail</font>");
+            document.write("<br><br>");
+
+            document.write("<font color='skyblue'>[ So Sad !</font><font color='#999'>" + b + "</font><font color='skyblue'>You have Failed try again next year. ]</font>");
+
+
+        }
+
+
+        document.write("</td></tr>");
+        document.write("</table></center>");
+        document.write("<br><br><hr>");
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
+<body leftmargin="200" bgcolor="#fff">
+
+
+</body>
+
+</html>
